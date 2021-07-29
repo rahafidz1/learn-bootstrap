@@ -6,23 +6,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>bootstrap</title>
     <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     
+    <nav class="navbar py-4 navbar-expand-lg navbar-light">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+              <img src="images/logo.png " width="187"/>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item align-self-center">
+                <a class="nav-link active" aria-current="page" href="#">Product</a>
+              </li>
+              <li class="nav-item align-self-center">
+                <a class="nav-link" href="#">Customers</a>
+              </li>
+              <li class="nav-item align-self-center">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item align-self-center">
+                <a class="nav-link" href="#">Resources</a>
+              </li>
+              <a class="btn px-4 btn-secondary ms-5" href="#" role="button">Sign In</a>
+              <a class="btn px-4 btn-primary ms-2" href="#" role="button">Sign Up</a>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
 
-    <section class="hero">
+    <section class="hero mt-5">
         <div class="container">
             <div class="row">
-                <div class="col">col</div>
-                <div class="col">col</div>
+                <div class="col align-self-center">
+                    <h1 class="mb-4">
+                        The Design Thinking Superpowers
+                    </h1>
+                    <p class="mb-4">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis non totam animi harum nam sequi quos quaerat deleniti eum voluptatum?
+                    </p>
+                    <a class="btn btn-primary" href="#" role="button">Get Started</a>
+                </div>
+                <div class="col d-none d-sm-block">
+                    <img width="600" src="images/hero-icon.png"/>
+                </div>
+
             </div>
         </div>
     </section>
 
 
 
-
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script> 
 </body>
 </html>
